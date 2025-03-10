@@ -65,7 +65,8 @@ Update this README file directly with the corresponding command for each questio
 1. **cp `home/activity2/proj1/*.py` `/home/activity2/proj2/`**
 2. **cp `home/activity2/proj1/*.py` `home/activity2/`**
 3. **cp `home/activity2/p1.txt` `home/activity2/proj2/p1_new.txt`
-4. **mkdir `home/activity2/proj3`** or ** mkdir proj3** (if youre in top lvl)** -> to copy files from proj1, do ->  cp `home/activity2/proj1/*` `home/activity2/proj3/`**
+4. **mkdir `home/activity2/proj3`**
+   To copy files from proj1 -> ** cp -r `home/activity2/proj1/*` `home/activity2/proj3/`**
 5. **nohup python `p1.py` &**
 
 ---
