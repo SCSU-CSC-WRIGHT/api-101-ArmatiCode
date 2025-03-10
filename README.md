@@ -60,6 +60,14 @@ Update this README file directly with the corresponding command for each questio
 4. **Create a subdirectory `proj3` under the top-level directory and copy all contents of `proj1` to it:**
 5. **Run `p1.py` Flask application in the background and keep it running after disconnecting from the terminal:**
 
+**Answers:**
+
+1. **cp `home/activity2/proj1/*.py` `/home/activity2/proj2/`**
+2. **cp `home/activity2/proj1/*.py` `home/activity2/`**
+3. **cp `home/activity2/p1.txt` `home/activity2/proj2/p1_new.txt`
+4. **mkdir `home/activity2/proj3`** or ** mkdir proj3** (if youre in top lvl)** -> to copy files from proj1, do ->  cp `home/activity2/proj1/*` `home/activity2/proj3/`**
+5. **nohup python `p1.py` &**
+
 ---
 
 ## Submission Guidelines
